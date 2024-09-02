@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sample Calendar//EN
+BEGIN:VEVENT
+UID:event1@example.com
+DTSTAMP:20230901T080000Z
+DTSTART:20230901T100000Z
+DTEND:20230901T110000Z
+SUMMARY:Meeting with ClientX
+DESCRIPTION:Discuss project details with ClientX.
+LOCATION:Zoom
+ATTENDEE;CN=John Doe:MAILTO:john.doe@example.com
+ATTENDEE;CN=Jane Smith:MAILTO:jane.smith@example.com
+END:VEVENT
+BEGIN:VEVENT
+UID:event4@example.com
+DTSTAMP:20230904T080000Z
+DTSTART:20230904T140000Z
+DTEND:20230904T150000Z
+SUMMARY:Project Kickoff
+DESCRIPTION:Kickoff meeting for the new project.
+LOCATION:Office - Room 101
+ATTENDEE;CN=John Doe:MAILTO:john.doe@example.com
+ATTENDEE;CN=Project Manager:MAILTO:pm@example.com
+END:VEVENT
+END:VCALENDAR

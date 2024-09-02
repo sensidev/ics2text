@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sample Calendar//EN
+BEGIN:VEVENT
+UID:event1@example.com
+DTSTAMP:20230901T080000Z
+DTSTART:20230901T100000Z
+DTEND:20230901T110000Z
+SUMMARY:Meeting with ClientX
+DESCRIPTION:Discuss project details with ClientX.
+LOCATION:Zoom
+ATTENDEE;CN=John Doe:MAILTO:john.doe@example.com
+ATTENDEE;CN=Jane Smith:MAILTO:jane.smith@example.com
+END:VEVENT
+BEGIN:VEVENT
+UID:event2@example.com
+DTSTAMP:20230902T080000Z
+DTSTART:20230902T100000Z
+DTEND:20230902T110000Z
+SUMMARY:Internal Team Meeting
+DESCRIPTION:Weekly team sync-up.
+LOCATION:Conference Room A
+ATTENDEE;CN=Alice Brown:MAILTO:alice.brown@example.com
+ATTENDEE;CN=Bob Johnson:MAILTO:bob.johnson@example.com
+END:VEVENT
+BEGIN:VEVENT
+UID:event3@example.com
+DTSTAMP:20230903T080000Z
+DTSTART:20230903T120000Z
+DTEND:20230903T130000Z
+SUMMARY:Discovery Call
+DESCRIPTION:Initial discovery call with a new client.
+LOCATION:Google Meet
+ATTENDEE;CN=Client Y:MAILTO:client.y@example.com
+END:VEVENT
+END:VCALENDAR
